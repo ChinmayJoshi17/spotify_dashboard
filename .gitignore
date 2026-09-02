@@ -1,0 +1,35 @@
+# Power BI temporary files
+*.pbix.tmp
+*.pbix.bak
+~$*.pbix
+*.pbi-temporary
+
+# Environment variables & secrets
+.env
+.env.local
+credentials.json
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# Data outputs (optional / large files)
+updated_file.csv
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
